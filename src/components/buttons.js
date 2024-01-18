@@ -14,7 +14,7 @@ function Buttons({data, setDishes}){
     }
     return(
 
-            <div  className="d-grid gap-2 d-md-flex justify-content-md-center mt-3">
+            <div  className="d-grid gap-2 d-md-flex justify-content-md-center mt-3 pb-2">
         <Button variant="outline-dark"  onClick={() => setDishes(data)}>Посмотреть все</Button>
         <Button variant="outline-dark" onClick={() => filteredDishes("pasta")}>Паста</Button>
         <Button variant="outline-dark" onClick={() => filteredDishes("fish")} >Рыбные блюда</Button>

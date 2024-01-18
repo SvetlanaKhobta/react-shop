@@ -15,7 +15,8 @@ function Menu(){
                 data = {data}
                 setDishes={setDishes}
             />
-            <Dishes dish={dishes}/>
+            <Dishes dish={dishes} />
+           
         </div>
     )
 }

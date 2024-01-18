@@ -21,12 +21,12 @@ import {
 
 import Delivery from './components/delivery';
 import Menu from './components/menu';
-import Cart from './components/cart';
 import Shop from './components/shop';
-
+import Cart from './components/cart';
 
 
 function App() {
+
 
   return (
 <div>
@@ -52,13 +52,17 @@ function App() {
     <Route path='/' element = {<Shop/>}/>
     <Route path='/menu' element = {<Menu/>}/>
     <Route path="/delivery" element = {<Delivery/>}/>
-    <Route path="/cart" element={<Cart/>}/>
+    <Route path="/cart" element={<Cart/> }/>
    </Routes>
 
    </Router>
 
+
+ 
  </div>
   );
 }
 
 export default App;
+
+
