@@ -22,7 +22,7 @@ import {
 import Delivery from './components/delivery';
 import Menu from './components/menu';
 import Shop from './components/shop';
-import Cart from './components/cart';
+import ParentCart from './components/parentcart';
 
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
    
       <Nav.Link > <Link className='link' to="/menu">Меню</Link></Nav.Link>
       <Nav.Link  > <Link className='link ' to="/delivery">Доставка</Link></Nav.Link>
-      <Nav.Link  ><Link className='link ' to="/cart">Корзина</Link> </Nav.Link>
+      <Nav.Link  ><Link className='link ' to="/parentCart">Корзина</Link> </Nav.Link>
      
     </Nav>
   </Navbar.Collapse>
@@ -52,7 +52,7 @@ function App() {
     <Route path='/' element = {<Shop/>}/>
     <Route path='/menu' element = {<Menu/>}/>
     <Route path="/delivery" element = {<Delivery/>}/>
-    <Route path="/cart" element={<Cart/> }/>
+    <Route path="/parentcart" element={<ParentCart/> }/>
    </Routes>
 
    </Router>

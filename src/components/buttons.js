@@ -23,7 +23,7 @@ function Buttons({data, setDishes}){
         <Button variant="outline-dark" onClick={() => filteredDishes("dessert")} >Десерты</Button>
         <Button variant="outline-dark" onClick={() => filteredDishes("chiken")} >Блюда из курицы</Button>
         <Button variant="outline-dark" onClick={() => filteredDishes("sandwich")} >Сэндвичи</Button>
-        <Button variant="outline-dark"onClick={() => filteredDishes("salad")} >Салаты</Button>
+        <Button variant="outline-dark" onClick={() => filteredDishes("salad")} >Салаты</Button>
         <Button variant="outline-dark" onClick={() => filteredDishes("italian")}>Итальянская кухня</Button>
         <Button variant="outline-dark" onClick={() => filteredDishes("china")}>Китайская кухня</Button>
         <Button variant="outline-dark" onClick={() => filteredDishes("american")} >Американская кухня</Button>
